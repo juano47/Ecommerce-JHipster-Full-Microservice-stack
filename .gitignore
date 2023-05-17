@@ -1,1 +1,4 @@
 /.idea/
+/invoice/.idea/
+/invoice/node_modules/
+/invoice/target/
