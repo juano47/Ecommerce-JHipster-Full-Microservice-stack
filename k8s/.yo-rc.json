@@ -1,0 +1,17 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["Invoice API", "Notification API", "Store UI + Gateway"],
+    "clusteredDbApps": [],
+    "directoryPath": "../",
+    "dockerPushCommand": "docker push",
+    "dockerRepositoryName": "juano47",
+    "ingressDomain": "",
+    "istio": false,
+    "jwtSecretKey": "OWViNmE5OWZlMTcxMzM1ZjM2YjU5MDhjNTRlNGM1MmVmN2RlYzY3YTU1ODMxYWExZTRhNzM3YWI2N2RhNTAxMzMzYTE2NTk5Zjg3NDBkOGM0MTcwOTQ4NGVmMThkNWJjYzBlMQ==",
+    "kubernetesNamespace": "default",
+    "kubernetesServiceType": "LoadBalancer",
+    "kubernetesUseDynamicStorage": false,
+    "monitoring": "no",
+    "serviceDiscoveryType": "eureka"
+  }
+}

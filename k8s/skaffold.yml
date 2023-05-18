@@ -1,0 +1,18 @@
+apiVersion: skaffold/v1
+kind: Config
+build:
+  artifacts:
+    - image: juano47/invoice
+      context: ../Invoice API
+      jib: {}
+    - image: juano47/notification
+      context: ../Notification API
+      jib: {}
+    - image: juano47/store
+      context: ../Store UI + Gateway
+      jib: {}
+  tagPolicy:
+    envTemplate:
+      template: "{{.IMAGE_NAME}}:latest"
+deploy:
+  kustomize: {}
