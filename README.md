@@ -1,11 +1,5 @@
 # Ecommerce-JHipster-Full-Microservice-stack
 
-### Live app: 
-http://a796880deff814ca581cc02a5b0c0de6-1875241892.eu-north-1.elb.amazonaws.com:8080/
-
-http://a6610784066af4e2d99b41565d060465-890163844.eu-north-1.elb.amazonaws.com:8761/
-
-
 Source: 
 
 https://medium.com/jhipster/create-full-microservice-stack-using-jhipster-domain-language-under-30-minutes-ecc6e7fc3f77
